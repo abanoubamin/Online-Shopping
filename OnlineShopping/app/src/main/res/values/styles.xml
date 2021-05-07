@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ThemeHome" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/red_dark</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+    <style name="ThemeFashion" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/yellow_dark</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="ThemePhones" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lime</item>
+        <item name="colorPrimaryDark">@color/lime_dark</item>
+        <item name="colorAccent">@color/lime</item>
+    </style>
+
+    <style name="ThemeLaptops" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/green_dark</item>
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="ThemeElectronics" parent="Base.Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/darkviolet</item>
+        <item name="colorPrimaryDark">@color/darkviolet_dark</item>
+        <item name="colorAccent">@color/darkviolet</item>
+    </style>
+
+    <style name="ThemeAutomobile" parent="Base.Theme.AppCompat.Light">
+    <item name="colorPrimary">@color/violet</item>
+    <item name="colorPrimaryDark">@color/violet_dark</item>
+    <item name="colorAccent">@color/violet</item>
+    </style>
+
+</resources>

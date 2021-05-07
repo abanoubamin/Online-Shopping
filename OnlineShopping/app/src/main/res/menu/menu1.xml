@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title=""
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iSound"
+        android:icon="@drawable/ic_microphone"
+        android:iconTint="@color/white"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iCam"
+        android:icon="@drawable/ic_barcode"
+        android:iconTint="@color/white"
+        android:title=""
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iCart"
+        android:icon="@drawable/ic_cart"
+        android:iconTint="@color/white"
+        android:title="My Cart"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/iIn"
+        android:icon="@drawable/ic_login"
+        android:title="Sign In"
+        android:visible="true" />
+    <item
+        android:id="@+id/iOut"
+        android:icon="@drawable/ic_logout"
+        android:title="Sign Out"
+        android:visible="true" />
+
+
+</menu>
